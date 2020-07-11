@@ -9,8 +9,15 @@ var textBox7 = $("#text7");
 var textBox8 = $("#text8");
 var textBox9 = $("#text9");
 var saveBtn = $(".savebtn");
+var currentDay = $("#currentDay");
 // when user load the page it will show the text has been saved
 // calling a function to pull texts from local storage
+
+function displayDate() {
+  currentDay.text(moment().format("dddd, MMMM Do, YYYY"));
+  // currentDay.text(new Date($.now()));
+  console.log(moment().format("dddd, MMMM Do, YYYY"));
+}
 
 var nine = [];
 var ten = [];
@@ -112,9 +119,8 @@ function init() {
   if (storedFive !== null) {
     five = storedFive;
   }
-
-  // Render todos to the DOM
   textbox();
+  displayDate();
 }
 // 1st Part:
 //save button
@@ -254,6 +260,7 @@ function storelocal(num) {
 
 // 2nd Part:
 //get real local time
+
 // default class= future
 // current: remove class = future   add class = current
 // past : remove class=current  add class = past
