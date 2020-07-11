@@ -317,7 +317,7 @@ function backgroundchange() {
     }
   }
   if (hr >= 13) {
-    if (hr === 12) {
+    if (hr === 13) {
       $("#text5").attr("class", "current");
     } else {
       $("#text5").attr("class", "pass");
