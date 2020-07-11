@@ -78,9 +78,17 @@ textarea {
   border-radius: 10px 0px 0px 10px;
 }
 
-input {
+/* input {
   min-width: 10%;
   width: 80%;
+} */
+
+/* for textarea box */
+.multiLineInput {
+  width: 80%;
+  /* border-color: #ffb6c1;
+  box-shadow: 0 0 5px #ffb6c1; */
+  background-color: rgb(209, 248, 209);
 }
 
 .col2 {
