@@ -66,15 +66,15 @@ function textbox() {
     textBox6.text(items);
   }
   for (var i = 0; i < three.length; i++) {
-    var items = two[i];
+    var items = three[i];
     textBox7.text(items);
   }
   for (var i = 0; i < four.length; i++) {
-    var items = two[i];
+    var items = four[i];
     textBox8.text(items);
   }
   for (var i = 0; i < five.length; i++) {
-    var items = two[i];
+    var items = five[i];
     textBox9.text(items);
   }
 }
@@ -88,36 +88,46 @@ function init() {
   var storedTwe = JSON.parse(localStorage.getItem("twe"));
   var storedOne = JSON.parse(localStorage.getItem("one"));
   var storedTwo = JSON.parse(localStorage.getItem("two"));
+  // var storedThree = JSON.parse(localStorage.getItem("three"));
   var storedThree = JSON.parse(localStorage.getItem("three"));
   var storedFour = JSON.parse(localStorage.getItem("four"));
   var storedFive = JSON.parse(localStorage.getItem("five"));
   // If todos were retrieved from localStorage, update the todos array to it
   if (storedNine !== null) {
     nine = storedNine;
+    console.log(nine);
   }
   if (storedTen !== null) {
     ten = storedTen;
+    console.log(ten);
   }
   if (storedEle !== null) {
     ele = storedEle;
+    console.log(ele);
   }
   if (storedTwe !== null) {
     twe = storedTwe;
+    console.log(twe);
   }
   if (storedOne !== null) {
     one = storedOne;
+    console.log(one);
   }
   if (storedTwo !== null) {
     two = storedTwo;
+    console.log(two);
   }
   if (storedThree !== null) {
     three = storedThree;
+    console.log(three);
   }
   if (storedFour !== null) {
     four = storedFour;
+    console.log(four);
   }
   if (storedFive !== null) {
     five = storedFive;
+    console.log(five);
   }
   textbox();
   displayDate();
