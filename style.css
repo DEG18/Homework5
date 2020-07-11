@@ -91,6 +91,16 @@ textarea {
   background-color: rgb(209, 248, 209);
 }
 
+.current {
+  width: 80%;
+  background-color: rgb(250, 228, 232);
+}
+
+.pass {
+  width: 80%;
+  background-color: rgb(218, 210, 210);
+}
+
 .col2 {
   background-color: #c7e8f3;
   text-align: center;

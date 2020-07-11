@@ -265,6 +265,80 @@ function backgroundchange() {
   // default class= future
   // current: remove class = future   add class = current
   // past : remove class=current  add class = past
-  var d = new Date();
-  var n = d.getHours(); // getting hr in term of 24hr
+
+  console.log(new Date($.now()));
+  var date = new Date($.now());
+  newDate = date.toString();
+  var hour1 = newDate[16];
+  var hour2 = newDate[17];
+  console.log(hour1);
+  console.log(hour2);
+  var hour = hour1 + hour2;
+  console.log(hour);
+  var hr = parseInt(hour);
+  console.log(hr);
+
+  if (hr >= 9) {
+    if (hr === 9) {
+      $("#text1").attr("class", "current");
+    } else {
+      $("#text1").attr("class", "pass");
+    }
+  }
+  if (hr >= 10) {
+    if (hr === 10) {
+      $("#text2").attr("class", "current");
+    } else {
+      $("#text2").attr("class", "pass");
+    }
+  }
+  if (hr >= 11) {
+    if (hr === 11) {
+      $("#text3").attr("class", "current");
+    } else {
+      $("#text3").attr("class", "pass");
+    }
+  }
+  if (hr >= 12) {
+    if (hr === 12) {
+      $("#text4").attr("class", "current");
+    } else {
+      $("#text4").attr("class", "pass");
+    }
+  }
+  if (hr >= 13) {
+    if (hr === 12) {
+      $("#text5").attr("class", "current");
+    } else {
+      $("#text5").attr("class", "pass");
+    }
+  }
+  if (hr >= 14) {
+    if (hr === 14) {
+      $("#text6").attr("class", "current");
+    } else {
+      $("#text6").attr("class", "pass");
+    }
+  }
+  if (hr >= 15) {
+    if (hr === 15) {
+      $("#text7").attr("class", "current");
+    } else {
+      $("#text7").attr("class", "pass");
+    }
+  }
+  if (hr >= 16) {
+    if (hr === 16) {
+      $("#text8").attr("class", "current");
+    } else {
+      $("#text8").attr("class", "pass");
+    }
+  }
+  if (hr >= 17) {
+    if (hr === 17) {
+      $("#text9").attr("class", "current");
+    } else {
+      $("#text9").attr("class", "pass");
+    }
+  }
 }
