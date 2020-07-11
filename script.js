@@ -147,9 +147,9 @@ saveBtn.on("click", function () {
   if (v === 0) {
     var text = textBox1.val();
     console.log(text);
-    if (text === "") {
-      return;
-    }
+    // if (text === "") {
+    //   return;
+    // }
     nine.push(text);
 
     storelocal(v);
@@ -157,9 +157,9 @@ saveBtn.on("click", function () {
   }
   if (v === 1) {
     var text = textBox2.val();
-    if (text === "") {
-      return;
-    }
+    // if (text === "") {
+    //   return;
+    // }
     ten.push(text);
 
     storelocal(v);
@@ -168,9 +168,9 @@ saveBtn.on("click", function () {
 
   if (v === 2) {
     var text = textBox3.val();
-    if (text === "") {
-      return;
-    }
+    // if (text === "") {
+    //   return;
+    // }
     ele.push(text);
 
     storelocal(v);
@@ -178,9 +178,9 @@ saveBtn.on("click", function () {
   }
   if (v === 3) {
     var text = textBox4.val();
-    if (text === "") {
-      return;
-    }
+    // if (text === "") {
+    //   return;
+    // }
     twe.push(text);
 
     storelocal(v);
@@ -188,9 +188,9 @@ saveBtn.on("click", function () {
   }
   if (v === 4) {
     var text = textBox5.val();
-    if (text === "") {
-      return;
-    }
+    // if (text === "") {
+    //   return;
+    // }
     one.push(text);
 
     storelocal(v);
@@ -198,9 +198,9 @@ saveBtn.on("click", function () {
   }
   if (v === 5) {
     var text = textBox6.val();
-    if (text === "") {
-      return;
-    }
+    // if (text === "") {
+    //   return;
+    // }
     two.push(text);
 
     storelocal(v);
@@ -208,9 +208,9 @@ saveBtn.on("click", function () {
   }
   if (v === 6) {
     var text = textBox7.val();
-    if (text === "") {
-      return;
-    }
+    // if (text === "") {
+    //   return;
+    // }
     three.push(text);
 
     storelocal(v);
@@ -218,9 +218,9 @@ saveBtn.on("click", function () {
   }
   if (v === 7) {
     var text = textBox8.val();
-    if (text === "") {
-      return;
-    }
+    // if (text === "") {
+    //   return;
+    // }
     four.push(text);
 
     storelocal(v);
@@ -228,9 +228,9 @@ saveBtn.on("click", function () {
   }
   if (v === 8) {
     var text = textBox9.val();
-    if (text === "") {
-      return;
-    }
+    // if (text === "") {
+    //   return;
+    // }
     five.push(text);
 
     storelocal(v);
