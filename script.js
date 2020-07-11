@@ -121,6 +121,7 @@ function init() {
   }
   textbox();
   displayDate();
+  backgroundchange();
 }
 // 1st Part:
 //save button
@@ -260,9 +261,10 @@ function storelocal(num) {
 
 // 2nd Part:
 //get real local time
-
-// default class= future
-// current: remove class = future   add class = current
-// past : remove class=current  add class = past
-
-//
+function backgroundchange() {
+  // default class= future
+  // current: remove class = future   add class = current
+  // past : remove class=current  add class = past
+  var d = new Date();
+  var n = d.getHours(); // getting hr in term of 24hr
+}
