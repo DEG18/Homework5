@@ -163,7 +163,7 @@ saveBtn.on("click", function () {
     }
     ele.push(text);
 
-    storelocal(value);
+    storelocal(v);
     textbox();
   }
   if (v === 3) {
